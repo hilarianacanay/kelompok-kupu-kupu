@@ -1,0 +1,106 @@
+body {
+    margin:0;
+    font-family: :Arial, Helvetica, sans-serif;
+    background-color:#f4f4f4;
+   
+}
+a{
+    color:rgb(82,135,235);
+    font-weigh:bold;
+    
+
+}
+/*header */
+
+.header{
+    background-color: :#fff;
+    box-shadow:1px 1px 4px 0 rgba(0,0,0,1);
+    position:fixed;
+    width:100%;
+    z-index:3;
+}
+.header ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    overvlow:hidden;
+    background-color: #fff;
+
+}
+header li a{
+    display:flex;
+    padding: 20px 20px;
+    text-decoration:none;
+}
+.header li a:hover,
+.header.menu-btn:hover{
+    background-color: #fff;
+}
+.header.logo{
+    display:block;
+    float:left;
+    font-size:2em;
+    padding: 10px 20px;
+    text-decoration: none;   
+}
+.gambar-logo{
+    width: 60px;
+    heigh: 60px;
+    border-radius:50%;
+}
+
+/*menu*/
+
+
+.header .menu{
+    clear:both;
+    max-height: 0;
+    transition:max-height 0.2s ease-out;
+}
+
+/*menu icon*/
+
+
+.header .menu-icon{
+    cursor:both;
+    max-height o.2s ease-out;
+}
+/*menu icon */
+
+
+.header .menu-icon{
+    cursor:pointer;
+    display:inline-block;
+    float:right;
+    padding: 28px 20px;
+    position:relative;
+    user-select: none;
+}
+
+.header .menu-icon .navicion{
+    backraound: #333;
+    display:flex;
+    height: 2px;
+    position: relative;
+    transition: backround o.2s ease-out;
+}
+width:18px;{
+    .header.menu-icon.navicion:before,
+    .header.menu-icon.navicion:after{
+        background: #333;
+        content: "";
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all O.2s ease-out;
+        width: 100%;
+        
+}
+
+.header.menu-icon.navicion::before{
+    top: 5px;
+}
+
+.header.menu-icon.navicion::after{
+    top: 5px;
+}
